@@ -4,7 +4,7 @@ A minimalist web application that enables three-way conversations between a user
 
 ## Demo
 
-https://jondoran.github.io/3way
+https://jondoran.github.io/3way (Soon!)
 
 ## Usage
 
