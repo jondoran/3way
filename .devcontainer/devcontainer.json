@@ -1,0 +1,14 @@
+{
+    "name": "3way",
+    "forwardPorts": [8080],
+    "customizations": {
+        "codespaces": {
+            "openFiles": ["index.html", "js/main.js"]
+        }
+    }
+}
+{
+    "forwardPorts": [8080],
+    "postCreateCommand": "npm install -g local-cors-proxy",
+    "postStartCommand": "lcp --proxyUrl https://3way.jon-fb0.workers.dev"
+}

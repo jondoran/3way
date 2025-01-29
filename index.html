@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Security-Policy" 
+        content="default-src 'self'; 
+        connect-src 'self' https://3way.jon-fb0.workers.dev; 
+        script-src 'self'; 
+        style-src 'self';">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3way - AI Conversation Moderator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>3way</h1>
+        </header>
+        <main>
+            <div id="conversation"></div>
+            <div class="input-area">
+                <textarea id="userInput" placeholder="Type your message..."></textarea>
+                <button id="sendBtn">Send</button>
+            </div>
+            <button id="clearBtn" class="clear-btn">Clear Conversation</button>
+        </main>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
