@@ -52,5 +52,3 @@ This project uses GitHub Codespaces for development and requires:
 The application is deployed in two parts:
 - Static frontend: GitHub Pages
 - API backend: Cloudflare Workers
-
-[Your name/handle]
