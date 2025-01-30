@@ -1,3 +1,16 @@
+<details class="instructions-wrapper" open>
+    <summary class="instructions-header">
+        <h2>How it works</h2>
+    </summary>
+    <div class="instructions-content">
+        <ol>
+            <li>Type your question or topic</li>
+            <li>Watch as Claude and GPT-4 discuss and debate</li>
+            <li>Get balanced perspectives from both AIs</li>
+        </ol>
+        <p class="tip">💡 Try asking about complex topics to see different viewpoints!</p>
+    </div>
+</details>
 # 3way
 
 A minimalist web application that enables three-way conversations between a user and two AI assistants (GPT-4 and Claude).
